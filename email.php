@@ -1,11 +1,11 @@
 <?php
 
-if(isset($_POST['email'])) && !empty ($_POST['email']){
+if(isset($_POST['email'])) && !empty ($_POST["email"]){
 
 
-$nome = addslashes($_POST['name'])
-$email = addslashes($_POST['email'])
-$mensagem = addslashes($_POST['message'])
+$nome = addslashes($_POST["name"]);
+$email = addslashes($_POST["email"]);
+$mensagem = addslashes($_POST["message"]);
 
 $to = "robertmaio@outlook.com";
 $subject = "Contato - Programador potfolio";

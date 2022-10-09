@@ -9,7 +9,12 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="menu-h">
+            <ul>
+                <li><a href="https://portfolio-maio.netlify.app/">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -26,17 +31,15 @@
         </section>
     </main>
     <footer>
-        <nav>          
-            <h1 class="item">ABOUT ME</h1>
+        <nav>     
+            <h1 id="about" class="item">ABOUT ME</h1>
             <h4 class="sobre"><font color = "lightgreen"> Olá, sou Robert de S. Maio, iniciei no mundo da programação recentemente, iniciei meu tecnólogo em 2022 de ADS, busco sempre aprender coisas novas e sempre ir me primorando por fora do superior, espero que gostem do meu portfolio e entre em contato para uma conversa direta</font></h4>
-            <div>
-                <h1 class="item">CONTACT</h1>
-                <form  method="post" action="./email.php">
-                <input  name="email" placeholder="Coloque seu email">
-                <input name="name" placeholder="Coloque seu Nome">
-                <textarea name="message" placeholder="Coloque sua mensagem aqui"></textarea>
-                <input class="item" type="submit" value="Enviar">
-            </div>
+            <h1 id="contact" class="item">CONTACT</h1>
+            <form  method="post" action="./email.php">
+            <input  name="email *" placeholder="Coloque seu email">
+            <input name="name" placeholder="Coloque seu Nome">
+            <textarea name="message" placeholder="Coloque sua mensagem aqui"></textarea>
+            <input class="item" type="submit" value="Enviar">
         </nav>
     </footer>
 </body>

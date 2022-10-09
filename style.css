@@ -1,5 +1,4 @@
 * {
-    margin: 0; 
     padding: 25px;
     box-sizing: border-box;
     text-decoration: none;
@@ -11,6 +10,28 @@ body{
     padding: 0;
     margin: 0;
     font-family: verdana;
+}
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background-color: forestgreen;
+}
+#menu-h ul li{
+    display: inline;
+}
+#menu-h ul li a{
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .5s;
+}
+#menu-h ul li a:hover{
+    color: rgb(97, 196, 5);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #000;
 }
 .cabecalho-image{
     display: flex;
@@ -32,6 +53,17 @@ body{
     bottom: 350px;
     
 }
+.cabecalho-image2:hover{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    position: relative;
+    width: 45px;
+    height: 40px;
+    bottom: 355px;
+    
+}
 .cabecalho-image3{
     display: flex;
     margin: 0;
@@ -44,9 +76,21 @@ body{
     left: 50px;
     
 }
+.cabecalho-image3:hover{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    position: relative;
+    width: 45px;
+    height: 40px;
+    bottom: 410px;
+    left: 55px;
+    
+}
 .cabecalho{
     animation: typing 4s 1s normal infinite;
-    padding: 0;
+    padding: 0px;
     margin-bottom: 0px;
     border-radius: 0px;
     font-size: 27px;
